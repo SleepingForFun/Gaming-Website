@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Jack</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Black Jack</h1>
+    <div id="display"></div>
+    <div id="dealer" class="card">
+    <h2>Dealers Hand <span id="dscore"></span></h2>
+    <span id="dhand"></span>
+</div>
+<h3></h3>
+
+<div id="player" class="card">
+    <span id="phand"></span>
+    <h2>Player Hand </h2>
+    
+    <h3>Players Score: <span id="pscore"></span></h3>
+</div>
+
+<div>
+    <button id="start">Start Game</button>
+    <button id="hit">Hit</button>
+    <button id="stay">Stay</button>
+</div>
+    
+<h5>How To Play</h5>
+<h6>    This game is like regular Black Jack. Theres the dealer hand which is the house and theres player hand which is you the player. The goal is to get a bigger hand than the dealer or get 21. There are no draws since house always wins.</h6>
+<h6></h6>
+<h6>    There are 3 buttons: Start, Hit, and Stay. The Start button is to start the game and also clears the game and give you a new hand you want to start a new game. The hit button allows you to get another card. Lastly the stay buttons allow you to stay at where you are. After pressing stay or pressing hit and its above 21 or hits 21 the game is over and a message telling you who won will appear.</h6>
+<h6></h6>
+<h6>Goal of the game. The goal of the game is to either get Black Jack which is 2 cards in hand and both add up to 21. The other one is to get a higher score than the Dealer without busting or going over 21. The dealer can also bust too. If the dealer has less than 17 in their hands they will also have to keep hitting until they are there or over. </h6>
+<h6></h6>
+<h6>    The odds are random and this has a fair chance to let the player win. fun fact if you really want to crash chrome with this code all you have to do is go in js and change the function dealerscore. Go to dealerscore and switch out dealerhand for playerhand and boom games gonna crash. This will only work if you press stay when you are at less than 17. This is because it is set that dealer will have to hit if hes lower than 17 but since there is no dealer score since the dealer is going off your score its going to be a endless loop. </h6>
+
+<h5>Hope You Enjoy!</h5>
+<a href="/home/index.html">Home</a>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

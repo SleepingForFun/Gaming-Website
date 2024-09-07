@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    background-color: bisque;
+}
+
+input[id='playerguess'] {
+    padding: 10px;
+    border: none;
+    width: 15%;
+    outline: none;
+    border-bottom: 5px solid red;
+    display:inline;
+    
+    font-size: 20px;
+    text-align: center;
+}
+
+button{
+    width: 5%;
+}
